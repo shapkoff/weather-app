@@ -129,7 +129,7 @@ export default function WeatherAppUA() {
 
           <CardContent className="space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold">{weather.city}</h2>
+              <h2 className="text-2xl font-semibold text-black">{weather.city}</h2>
               <p className="text-slate-600">{weather.condition}</p>
             </div>
 
